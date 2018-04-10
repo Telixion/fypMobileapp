@@ -1,3 +1,19 @@
 page-login {
-
+	.wrapper{
+		text-align: center;
+		padding: 45px;
+	}
+	.formWrapper{
+		text-align: left;
+		padding: 30px;
+	}
+	.formWrapper input{
+		width: 100%;
+		border: none;
+		border-bottom: solid 2px #cdc;
+	}
+	.wrapper button{
+		background-color: #bc8a3b;
+		color: #fff;
+	}
 }

@@ -1,3 +1,14 @@
 page-contact {
-
+	.wrapper{
+		text-align: center;
+	}
+	.contentWrapper{
+		text-align: left;
+	}
+	.contentWrapper ion-col{
+		padding-top: 10px;
+	}
+	.contentWrapper .informationName h3{
+		color: #bc8a3b;
+	}
 }

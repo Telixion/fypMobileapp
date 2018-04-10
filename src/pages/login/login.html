@@ -1,4 +1,25 @@
+
 <ion-content padding>
-<h1>this is the login page</h1>
-<button ion-button (click)="login()">login</button>
+<div class="wrapper">
+	<ion-grid>
+		<ion-row>
+		    <ion-col col-12 class="logo">
+				<img src="./assets/Images/logo.png" alt="">
+		    </ion-col>
+		</ion-row>
+	</ion-grid>
+	<div class="spacer" style="height: 1em;"></div>
+	<h4>Student Examination Attendance</h4>
+	<form action="#">
+		<div class="formWrapper">
+			<p>Username</p>
+			<input type="text">
+			<div class="spacer" style="height: 0.5em"></div>
+			<p>Password</p>
+			<input type="password">
+		</div>
+	</form>
+	<div class="spacer" style="height: 1.5em;"></div>
+	<button ion-button (click)="login()">login</button>
+</div>
 </ion-content>

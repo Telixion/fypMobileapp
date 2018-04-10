@@ -1,19 +1,22 @@
 page-home {
-
-}
-
-.upperProfile {
+	.upperProfile {
 	text-align: center;
-	background-color: green;
-}
-ion-card img{
-	height: 100px;
-	width: 100px;
-	position: relative;
-	margin-left: 35%;
-	border-radius: 100%;
+	background-color: #bc8a3b;
+	}
+	ion-card img{
+		height: 100px;
+		width: 100px;
+		position: relative;
+		margin-left: 35%;
+		border-radius: 100%;
+	}
+
+	.profileDetailsUp p{
+		color: white;
+	}
+
+	.informationName h3{
+		color: #bc8a3b;
+	}
 }
 
-.profileDetailsUp p{
-	color: white;
-}
